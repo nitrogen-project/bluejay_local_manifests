@@ -15,14 +15,13 @@
       <remote name="aosp_kernel"
             fetch="https://android.googlesource.com"
             review="https://android-review.googlesource.com/"
-            revision="refs/tags/android-13.0.0_r0.49" />
+            revision="refs/tags/android-13.0.0_r0.54" />
 
     <!-- Device and Kernel -->
     <project path="device/google/gs101" name="device_google_gs101" remote="nos" revision="13" />
     <project path="device/google/bluejay" name="device_google_bluejay" remote="nos" revision="13" />
     <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" remote="nos" revision="13" />
     <project path="kernel/google/gs101/private/gs-google" name="android_kernel_google_gs101" remote="nos" revision="13" />
-    <project path="vendor/google_devices/bluejay" name="vendor_google_devices_bluejay" remote="gitlab" revision="13" />
     <project path="vendor/adevtool" name="GrapheneOS/adevtool" remote="github" revision="13"/>
     <project path="vendor/state" name="GrapheneOS/vendor_state" remote="github" revision="13" />
 
