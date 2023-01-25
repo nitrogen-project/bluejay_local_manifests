@@ -22,8 +22,8 @@
     <project path="device/google/bluejay" name="device_google_bluejay" remote="nos" revision="13" />
     <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" remote="nos" revision="13" />
     <project path="kernel/google/gs101/private/gs-google" name="android_kernel_google_gs101" remote="nos" revision="13" />
-    <project path="vendor/adevtool" name="GrapheneOS/adevtool" remote="github" revision="13"/>
-    <project path="vendor/state" name="GrapheneOS/vendor_state" remote="github" revision="13" />
+    <project path="vendor/adevtool" name="adevtool" remote="nos" revision="13"/>
+    <project path="vendor/state" name="vendor_state" remote="nos" revision="13" />
 
     <!-- Pixel 6/6 Pro/6a kernel modules -->
     <project path="kernel/google/gs101/private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="pixel-extra" remote="aosp_kernel" />
